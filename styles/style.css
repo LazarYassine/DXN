@@ -1,0 +1,213 @@
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabickufi.css");
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Droid Arabic Kufi", serif;
+
+}
+
+body {
+    background-color: #eee;
+}
+
+.en {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #081828;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav div a {
+
+    color: #eee;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+nav div a:hover {
+    border-bottom: 1px #eee solid;
+    color: #eee;
+}
+
+nav h2 {
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.carousel-item {
+    
+}
+
+
+.swiper {
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin-bottom: 20px;
+    border-radius: 1rem;
+
+  }
+
+  .overly {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .62);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100%;
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;*/
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100%;
+    background-image: url("../images/mountains.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;*/
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .titles {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #eee;
+  }
+
+  .slide_img {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slide_img img {
+    height: 100%;
+   
+  }
+
+@media (max-width: 767px) {
+    .overly {
+        flex-direction: column;       
+    }
+
+    .slide_img {
+        width: 100%;
+        height: 50%;
+    }
+
+
+    nav div {
+        display: none;
+    }
+
+
+}
+
+
+.nav_btn {
+    background-color: #eee;
+    border: none !important;
+}
+
+.fa-bars{
+    color: #081828;
+    font-size: 18px;
+
+}
+
+
+.offcanvas-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.offcanvas-body div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.offcanvas-body div a {
+    color: #081828;
+}
+
+.offcanvas-body div a:hover {
+    color: #081828;
+    border-bottom: 1px #081828 solid;
+
+}
+
+
+
