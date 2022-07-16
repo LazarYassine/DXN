@@ -209,4 +209,69 @@ nav h2 {
 }
 
 
+#about {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 9;
+}
+
+.features-item {
+    border-radius: 5px;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+
+.features-item svg {
+    width: 80px;
+    height: 80px;
+    z-index: 10;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.features-item .main-button {
+    margin-top: 35px;
+    display: inline-block;
+}
+
+
+
+.features-item .main-button {
+    margin-top: 35px;
+    display: inline-block;
+}
+
+
+span.main-button {
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: #081828;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+span.main-button:hover {
+    background-color: #fff;
+    color: #081828;
+    border: #081828 1px solid;
+}
+
+span {
+    text-decoration: none !important;
+}
+
 
